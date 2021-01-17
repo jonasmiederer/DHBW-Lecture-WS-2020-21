@@ -18,18 +18,18 @@ c = float(input("Bitte Koeffizient c eingeben: "))
 """
  Lösungsformel: 
  
- x1 = (-b + sqrt(b^2 - 4ac)) / 2a
- x2 = (-b - sqrt(b^2 - 4ac)) / 2a
+ x1 = (-b + sqrt(b^2 - 4ac)) / (2a)
+ x2 = (-b - sqrt(b^2 - 4ac)) / (2a)
 """
 
-x1 = (-b + (math.sqrt(b**2 - 4*a*c))) / 2*a
-x2 = (-b - (math.sqrt(b**2 - 4*a*c))) / 2*a
+x1 = (-b + (math.sqrt(b**2 - 4*a*c))) / (2*a)
+x2 = (-b - (math.sqrt(b**2 - 4*a*c))) / (2*a)
 
 """
 Alternativ für math.sqrt(x) kann die Quadratwurzel auch mit x**(0.5) berechnet werden.
 
-x1 = (-b + (b**2 - 4*a*c)**(0.5)) / 2*a
-x2 = (-b - (b**2 - 4*a*c)**(0.5)) / 2*a
+x1 = (-b + (b**2 - 4*a*c)**(0.5)) / (2*a)
+x2 = (-b - (b**2 - 4*a*c)**(0.5)) / (2*a)
 
 ACHTUNG: 
 Während die Funktion math.sqrt(x) lediglich für reelle Zahlen definiert ist und 

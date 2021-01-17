@@ -21,11 +21,11 @@ Schreiben Sie ein Programm, mit dem quadratische Gleichungen der Form ![ax^2 + b
 
 Hierbei soll überprüft werden, ob Lösungen im reellen Zahlenraum existieren. Ist dies nicht der Fall soll eine Fehlermeldung ausgegeben werden.
 
-## 4. Schlatjahr
+## 4. Schaltjahr
 
 **Beschreibung:**
 
-Schlatjahre treten auf, wenn
+Schaltjahre treten auf, wenn
 
 * die Jahreszahl durch 4 teilbar ist
 * Ausnahme: Falls die Jahreszahl ebenfalls durch 100 ist, ist es kein Schaltjahr
